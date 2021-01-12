@@ -65,11 +65,11 @@ public class Student {
         this.name = name;
     }
 
-    public void setStudentId(int studentId) {
+    private void setStudentId(int studentId) {
         this.studentId = studentId;
     }
 
-    public void setGpa(double gpa) {
+    private void setGpa(double gpa) {
         this.gpa = gpa;
     }
 
